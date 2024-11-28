@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Assistant Professor (助理研究员), <a href='https://infosec.sjtu.edu.cn/'>School of Cyber Science and Engineering</a>, <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Rm. 3-East 309, SEIEE Building</p>
+    <p>No. 800, Dongchuan Road</p>
+    <p>Shanghai, China</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a research assistant professor in the School of Cyber Science and Engineering at Shanghai Jiao Tong University. I am also a member of the Intelligent Network and Trusted Computing Laboratory (INTCL) directed by Prof. <a href="https://www.cs.sjtu.edu.cn/~linghe.kong/">Linghe Kong</a>. I received my Ph.D. degree from the Department of Computer Science and Engineering at Shanghai Jiao Tong University in June 2024 (under the supervision of Prof. Linghe Kong), and my Bachelor degree from the School of Computer Science and Engineering at the <a href="https://www.uestc.edu.cn/">University of Electronic Science and Technology of China</a> in June 2018. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have published over 10 papers in high-quality international journals and conferences such as ACM WWW, IEEE TMC, IEEE TIFS, IEEE Network, and IEEE ICDCS, and among them, 3 papers are ESI highly cited papers. I have served as a member of the Technical Program Committee of IEEE Blockchain 2023-2024, IEEE ISPA 2024, IEEE VTC 2020-2021. I have been honored with the First Prize of the Shanghai Computer Society Natural Science Award, the National Scholarship for Postgraduate Students, the First Prize in the National University Blockchain Competition, the First Prize in the National College Student Information Security Contest, and other awards. My primary research interests include **blockchain, Internet of Things, data security, and trusted computing**. I am committed to seeking innovative breakthroughs in the fundamental blockchain technology and its application and practice in the realm of cyberspace security.
