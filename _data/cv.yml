@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Junqin Huang
-    - name: Year of Birth
-      value: 1995
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: Chinese, English
+      value: English, German
 
 - title: Education
   type: time_table
