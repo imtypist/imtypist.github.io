@@ -106,7 +106,7 @@
       "endDate": "2023-12-31"
     },
     {
-      "name": "参与，之江实验室开放课题：\"智慧交通的多方数据确权与共享技术研究\"，Grant No. 2022NL0AB01,50万元",
+      "name": "参与，之江实验室开放课题：\"智慧交通的多方数据确权与共享技术研究\"，Grant No. 2022NL0AB01，50万元",
       "highlights": ["项目主导"],
       "startDate": "2022-01-01",
       "endDate": "2023-12-31"
@@ -122,6 +122,55 @@
       "highlights": ["项目主导"],
       "startDate": "2018-06-01",
       "endDate": "2019-06-01"
+    }
+  ],
+  "services": [
+    {
+      "name": "TPC Member",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "<a href='https://ieee-cybermatics.org/2023/blockchain/tpc.php'>IEEE Blockchain 2023</a>",
+        "<a href='https://ieee-cybermatics.org/2024/blockchain/tpc.php'>IEEE Blockchain 2024</a>",
+        "<a href='https://www.ieee-ispa.org/2024/ispa/tpc.php'>IEEE ISPA 2024</a>",
+        "<a href='https://vtc2020spring.trackchair.com/track/1809'>IEEE VTC2020-Spring</a>",
+        "<a href='https://vtc2021spring.trackchair.com/track/1930'>IEEE VTC2021-Spring</a>"
+      ]
+    },
+    {
+      "name": "Invited Reviewer",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "IEEE Transactions on Mobile Computing",
+        "IEEE Transactions on Information Forensics and Security",
+        "IEEE Transactions on Computers",
+        "IEEE Transactions on Intelligent Transportation Systems",
+        "IEEE Transactions on Systems, Man and Cybernetics: Systems",
+        "IEEE Transactions on Emerging Topics in Computing",
+        "IEEE Transactions on Industrial Informatics",
+        "IEEE Transactions on Green Communications and Networking",
+        "IEEE Transactions on Cognitive Communications and Networking",
+        "IEEE Transactions on Network Science and Engineering",
+        "IEEE Journal on Selected Areas in Communications",
+        "IEEE Communications Surveys and Tutorials",
+        "IEEE Network",
+        "IEEE Computer",
+        "IEEE Internet of Things Journal",
+        "IEEE Access",
+        "ACM Computing Surveys",
+        "ACM Transactions on Privacy and Security",
+        "Computer Communications",
+        "ACM Ubicomp/IMWUT 2021",
+        "EAI CollaborateCom 2022",
+        "IEEE ICDM 2023"
+      ]
+    },
+    {
+      "name": "Teaching Assistant",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "[CS154] Programming Design Ideas and Methods (C++), Fall 2019",
+        "[CS7341] Algorithm Analysis and Theory, Spring 2021"
+      ]
     }
   ]
 }
