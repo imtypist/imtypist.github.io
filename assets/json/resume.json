@@ -90,6 +90,13 @@
   ],
   "services": [
     {
+      "name": "Editorial Board",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Youth Editorial Board Member, <a href='https://www.sciencedirect.com/journal/blockchain-research-and-applications'>Blockchain: Research and Applications (BCRA)</a>, 2025-2027"
+      ]
+    },
+    {
       "name": "Technical Program Committee",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
