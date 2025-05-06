@@ -93,7 +93,14 @@
       "name": "Editorial Board",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Youth Editorial Board Member, <a href='https://www.sciencedirect.com/journal/blockchain-research-and-applications'>Blockchain: Research and Applications (BCRA)</a>, 2025-2027"
+        "Youth Editorial Board Member, <a href='https://www.sciencedirect.com/journal/blockchain-research-and-applications'>Blockchain: Research and Applications (BCRA)</a>, 2025-present"
+      ]
+    },
+    {
+      "name": "Conference Organization",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Organization Co-Chair, BFI <a href='https://bcra-conf.github.io/2025/calls/call-for-BFI/'>2025</a>"
       ]
     },
     {
@@ -135,6 +142,7 @@
         "IEEE Access",
         "ACM Computing Surveys",
         "ACM Transactions on Privacy and Security",
+        "ACM Transactions on the Web",
         "Computer Communications",
         "ACM Ubicomp/IMWUT 2021",
         "EAI CollaborateCom 2022",
