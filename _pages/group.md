@@ -8,7 +8,9 @@ nav_order: 5
 ---
 **Master Students**
 
-- Yifei Wang 王艺菲 (co-supervised with Prof. Linghe Kong), 2025.09-
+- Xinming Shu 舒欣茗 (co-supervised with Prof. Linghe Kong), 2024.09-
+- Yifei Wang 王艺菲, 2025.09-
+- Kaiyao Hou 侯凯耀, 2025.09-
 
 **Undergraduate Students**
 
