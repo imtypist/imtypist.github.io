@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 3
 cv_pdf: cv_junqin.pdf
-description: 
+description:
 toc:
   sidebar: left
 ---

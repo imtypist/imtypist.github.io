@@ -4,7 +4,7 @@
 
 title: Junqin Huang # the website title (if blank, full name will be used instead)
 first_name: Junqin
-middle_name: 
+middle_name:
 last_name: Huang
 email: junqin.huang@sjtu.edu.cn
 description: # the ">" symbol means to ignore newlines until "footer_text:"
@@ -110,7 +110,7 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: 
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -2,10 +2,11 @@
 layout: page
 permalink: /group/
 title: group
-description: 
+description:
 nav: true
 nav_order: 5
 ---
+
 **Master Students**
 
 - Xinming Shu 舒欣茗 (co-supervised with Prof. Linghe Kong), 2024.09-

@@ -2,10 +2,11 @@
 layout: page
 permalink: /patents/
 title: patents
-description: 
+description:
 nav: true
 nav_order: 4
 ---
+
 **Patents:**
 
 [1] 孔令和，<u>黄俊钦</u>，周思渊，陈贵海，陈敏刚，葛建新. 支持人工智能模型推理的区块链智能合约执行系统：中国，CN202311144839.8，申请，2023.

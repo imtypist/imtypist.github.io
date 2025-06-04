@@ -99,9 +99,7 @@
     {
       "name": "Conference Organization",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Organization Co-Chair, BFI <a href='https://bcra-conf.github.io/2025/calls/call-for-BFI/'>2025</a>"
-      ]
+      "keywords": ["Organization Co-Chair, BFI <a href='https://bcra-conf.github.io/2025/calls/call-for-BFI/'>2025</a>"]
     },
     {
       "name": "Technical Program Committee",
@@ -153,10 +151,7 @@
     {
       "name": "Teaching Assistant",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "[CS154] Thinking and Methodology in Programming (C++), 2019Fall",
-        "[CS7341] Algorithm Analysis and Theory, 2021Spring"
-      ]
+      "keywords": ["[CS154] Thinking and Methodology in Programming (C++), 2019Fall", "[CS7341] Algorithm Analysis and Theory, 2021Spring"]
     }
   ],
   "projects": [
@@ -177,7 +172,10 @@
     },
     {
       "name": "参与，上海卫星互联网研究院开放课题：\"卫星互联网区块链分布式可信通信组网技术研究\"，60万元",
-      "highlights": ["项目主导", "Build a satellite-ground communication system on <a href='https://mp.weixin.qq.com/s/LepJ4qicXPev3wnMpCGrYA'>东海一号</a> satellite"],
+      "highlights": [
+        "项目主导",
+        "Build a satellite-ground communication system on <a href='https://mp.weixin.qq.com/s/LepJ4qicXPev3wnMpCGrYA'>东海一号</a> satellite"
+      ],
       "startDate": "2023-01-01",
       "endDate": "2023-12-31"
     },
