@@ -42,6 +42,11 @@
   ],
   "awards": [
     {
+      "title": "Geneva International Exhibition of Inventions Gold Medal",
+      "date": "2025-05-12",
+      "awarder": "Salon International des Inventions de Genève"
+    },
+    {
       "title": "First Prize of Shanghai Computer Society (SCS) Natural Science Award (Rank 4/5)",
       "date": "2024-04-17",
       "awarder": "Shanghai Computer Society",
@@ -121,6 +126,7 @@
         "IEEE Transactions on Dependable and Secure Computing",
         "IEEE Transactions on Computers",
         "IEEE Transactions on Services Computing",
+        "IEEE Transactions on Knowledge and Data Engineering",
         "IEEE Transactions on Intelligent Transportation Systems",
         "IEEE Transactions on Systems, Man and Cybernetics: Systems",
         "IEEE Transactions on Emerging Topics in Computing",
