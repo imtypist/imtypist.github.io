@@ -1,18 +1,18 @@
 metadata:
-  last_updated: '2025-06-30'
+  last_updated: '2025-07-16'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
     year: '2019'
-    citations: 644
+    citations: 647
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 225
+    citations: 229
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
-    citations: 162
+    citations: 158
   vkLqOFwAAAAJ:UeHWp8X0CEIC:
     title: Blockchain-Based Mobile Crowd Sensing in Industrial Systems
     year: '2020'
@@ -24,11 +24,11 @@ papers:
   vkLqOFwAAAAJ:_FxGoFyzp5QC:
     title: Secure data sharing over vehicular networks based on multi-sharding blockchain
     year: '2024'
-    citations: 34
+    citations: 38
   vkLqOFwAAAAJ:ufrVoPGSRksC:
     title: 'BlockSense: Towards trustworthy mobile crowdsensing via proof-of-data blockchain'
     year: '2022'
-    citations: 24
+    citations: 25
   vkLqOFwAAAAJ:LkGwnXOMwfcC:
     title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
     year: '2023'
@@ -41,32 +41,32 @@ papers:
     title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
     year: '2022'
     citations: 13
+  vkLqOFwAAAAJ:Y0pCki6q_DkC:
+    title: 'PV-TSC: Learning to control traffic signals for pedestrian and vehicle traffic in 6G era'
+    year: '2022'
+    citations: 13
   vkLqOFwAAAAJ:WF5omc3nYNoC:
     title: 'Blockchain-based federated learning: A systematic survey'
     year: '2022'
     citations: 12
-  vkLqOFwAAAAJ:Y0pCki6q_DkC:
-    title: 'PV-TSC: Learning to control traffic signals for pedestrian and vehicle traffic in 6G era'
-    year: '2022'
-    citations: 12
-  vkLqOFwAAAAJ:Tyk-4Ss8FVUC:
-    title: A privacy-preserving vehicular data sharing framework atop multi-sharding blockchain
-    year: '2021'
-    citations: 10
   vkLqOFwAAAAJ:YsMSGLbcyi4C:
     title: 'AISChain: Blockchain-Based AIS Data Platform With Dynamic Bloom Filter Tree'
     year: '2022'
     citations: 9
+  vkLqOFwAAAAJ:Tyk-4Ss8FVUC:
+    title: A privacy-preserving vehicular data sharing framework atop multi-sharding blockchain
+    year: '2021'
+    citations: 9
   vkLqOFwAAAAJ:u-x6o8ySG0sC:
     title: "\u57FA\u4E8E\u533A\u5757\u94FE\u7684\u6570\u5B57\u4F5C\u54C1 DCI \u7BA1\u63A7\u6A21\u578B"
     year: '2017'
-    citations: 7
+    citations: 5
   vkLqOFwAAAAJ:Se3iqnhoufwC:
     title: 'Advancing Web 3.0: Making Smart Contracts Smarter on Blockchain'
     year: '2024'
     citations: 4
   vkLqOFwAAAAJ:roLk4NBRz8UC:
-    title: Relayer-Enabled Sharding Blockchain for Satellite Internet with High Concurrency
+    title: Relayer-enabled sharding blockchain for satellite Internet with high concurrency
     year: '2023'
     citations: 2
   vkLqOFwAAAAJ:zYLM7Y9cAGgC:
