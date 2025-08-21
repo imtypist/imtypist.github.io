@@ -103,6 +103,11 @@
       ]
     },
     {
+      "name": "Guest Editor",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Lead Guest Editor, Electronics, Special Issue on \"<a href='https://www.mdpi.com/journal/electronics/special_issues/XE813WSFK7'>New Trends for Blockchain Technology in IoT</a>\", 2025-2026"]
+    },
+    {
       "name": "Conference Organization",
       "icon": "fa-solid fa-hashtag",
       "keywords": ["Organization Co-Chair, BFI <a href='https://bcra-conf.github.io/2025/calls/call-for-BFI/'>2025</a>"]
@@ -144,6 +149,7 @@
         "IEEE Journal on Selected Areas in Communications",
         "IEEE Communications Surveys and Tutorials",
         "IEEE Open Journal of the Computer Society",
+        "IEEE Communications Magazine",
         "IEEE Network",
         "IEEE Computer",
         "IEEE Internet of Things Journal",
