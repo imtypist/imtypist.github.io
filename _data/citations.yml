@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-09-08'
+  last_updated: '2025-09-10'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
@@ -8,7 +8,7 @@ papers:
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 269
+    citations: 270
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
