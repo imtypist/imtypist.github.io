@@ -1,14 +1,14 @@
 metadata:
-  last_updated: '2025-08-18'
+  last_updated: '2025-09-10'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
     year: '2019'
-    citations: 659
+    citations: 660
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 254
+    citations: 270
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
@@ -16,7 +16,7 @@ papers:
   vkLqOFwAAAAJ:UeHWp8X0CEIC:
     title: Blockchain-Based Mobile Crowd Sensing in Industrial Systems
     year: '2020'
-    citations: 110
+    citations: 111
   vkLqOFwAAAAJ:qjMakFHDy7sC:
     title: 'B-IoT: Blockchain Driven Internet of Things with Credit-Based Consensus Mechanism'
     year: '2019'
@@ -24,27 +24,27 @@ papers:
   vkLqOFwAAAAJ:_FxGoFyzp5QC:
     title: Secure data sharing over vehicular networks based on multi-sharding blockchain
     year: '2024'
-    citations: 43
+    citations: 44
   vkLqOFwAAAAJ:ufrVoPGSRksC:
     title: 'BlockSense: Towards trustworthy mobile crowdsensing via proof-of-data blockchain'
     year: '2022'
-    citations: 26
+    citations: 27
   vkLqOFwAAAAJ:LkGwnXOMwfcC:
     title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
     year: '2023'
-    citations: 21
+    citations: 22
   vkLqOFwAAAAJ:9yKSN-GCB0IC:
     title: Blockchain-based Crowd-sensing System
     year: '2018'
     citations: 20
+  vkLqOFwAAAAJ:WF5omc3nYNoC:
+    title: 'Blockchain-based federated learning: A systematic survey'
+    year: '2022'
+    citations: 14
   vkLqOFwAAAAJ:Y0pCki6q_DkC:
     title: 'PV-TSC: Learning to control traffic signals for pedestrian and vehicle traffic in 6G era'
     year: '2022'
     citations: 14
-  vkLqOFwAAAAJ:WF5omc3nYNoC:
-    title: 'Blockchain-based federated learning: A systematic survey'
-    year: '2022'
-    citations: 13
   vkLqOFwAAAAJ:W7OEmFMy1HYC:
     title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
     year: '2022'
