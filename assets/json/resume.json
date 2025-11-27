@@ -105,7 +105,10 @@
     {
       "name": "Guest Editor",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Lead Guest Editor, Electronics, Special Issue on \"<a href='https://www.mdpi.com/journal/electronics/special_issues/XE813WSFK7'>New Trends for Blockchain Technology in IoT</a>\", 2025-2026"]
+      "keywords": [
+        "Lead Guest Editor, Electronics, Special Issue on \"<a href='https://www.mdpi.com/journal/electronics/special_issues/XE813WSFK7'>New Trends for Blockchain Technology in IoT</a>\", 2025-2026",
+        "Guest Editor, Future Internet, Special Issue on \"<a href='https://www.mdpi.com/journal/futureinternet/special_issues/66KRNF6ME3'>Blockchain-Empowered Internet of Agents for Trusted and Autonomous Networked Systems</a>\", 2025-2026"
+      ]
     },
     {
       "name": "Conference Organization",
