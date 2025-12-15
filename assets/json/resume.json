@@ -113,7 +113,10 @@
     {
       "name": "Conference Organization",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Organization Co-Chair, BFI <a href='https://bcra-conf.github.io/2025/calls/call-for-BFI/'>2025</a>"]
+      "keywords": [
+        "Sponsor Chair, APNet 2026",
+        "Organization Co-Chair, BFI <a href='https://bcra-conf.github.io/2025/calls/call-for-BFI/'>2025</a>"
+      ]
     },
     {
       "name": "Technical Program Committee",
@@ -151,6 +154,7 @@
         "IEEE Transactions on Network and Service Management",
         "IEEE Transactions on Vehicular Technology",
         "IEEE Transactions on Computational Social Systems",
+        "IEEE Transactions on Big Data",
         "IEEE Journal on Selected Areas in Communications",
         "IEEE Communications Surveys and Tutorials",
         "IEEE Open Journal of the Computer Society",
@@ -176,6 +180,11 @@
     }
   ],
   "projects": [
+    {
+      "name": "主持，蚂蚁集团：\"智能体互连趋势下的新一代智能终端可信体系研究\"，Grant No. ，30万元",
+      "startDate": "2025-12-01",
+      "endDate": "2026-11-30"
+    },
     {
       "name": "课题负责人，上海市科学技术委员会：\"联盟链大规模灵活共识机制研究\"，Grant No. 24BC3201300，20万/189万元",
       "startDate": "2024-10-01",
