@@ -1,18 +1,18 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-01-30'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
     year: '2019'
-    citations: 680
+    citations: 681
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 368
+    citations: 374
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
-    citations: 165
+    citations: 164
   vkLqOFwAAAAJ:UeHWp8X0CEIC:
     title: Blockchain-Based Mobile Crowd Sensing in Industrial Systems
     year: '2020'
@@ -20,7 +20,7 @@ papers:
   vkLqOFwAAAAJ:_FxGoFyzp5QC:
     title: Secure data sharing over vehicular networks based on multi-sharding blockchain
     year: '2024'
-    citations: 56
+    citations: 58
   vkLqOFwAAAAJ:qjMakFHDy7sC:
     title: 'B-IoT: Blockchain Driven Internet of Things with Credit-Based Consensus Mechanism'
     year: '2019'
@@ -28,11 +28,11 @@ papers:
   vkLqOFwAAAAJ:ufrVoPGSRksC:
     title: 'BlockSense: Towards trustworthy mobile crowdsensing via proof-of-data blockchain'
     year: '2022'
-    citations: 34
+    citations: 36
   vkLqOFwAAAAJ:LkGwnXOMwfcC:
     title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
     year: '2023'
-    citations: 31
+    citations: 32
   vkLqOFwAAAAJ:9yKSN-GCB0IC:
     title: Blockchain-based Crowd-sensing System
     year: '2018'
@@ -40,15 +40,15 @@ papers:
   vkLqOFwAAAAJ:Y0pCki6q_DkC:
     title: 'PV-TSC: Learning to control traffic signals for pedestrian and vehicle traffic in 6G era'
     year: '2022'
-    citations: 18
-  vkLqOFwAAAAJ:WF5omc3nYNoC:
-    title: 'Blockchain-based federated learning: A systematic survey'
-    year: '2022'
-    citations: 16
+    citations: 19
   vkLqOFwAAAAJ:W7OEmFMy1HYC:
     title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
     year: '2022'
     citations: 16
+  vkLqOFwAAAAJ:WF5omc3nYNoC:
+    title: 'Blockchain-based federated learning: A systematic survey'
+    year: '2022'
+    citations: 15
   vkLqOFwAAAAJ:YsMSGLbcyi4C:
     title: 'AISChain: Blockchain-Based AIS Data Platform With Dynamic Bloom Filter Tree'
     year: '2022'
@@ -60,7 +60,7 @@ papers:
   vkLqOFwAAAAJ:Tyk-4Ss8FVUC:
     title: A privacy-preserving vehicular data sharing framework atop multi-sharding blockchain
     year: '2021'
-    citations: 10
+    citations: 11
   vkLqOFwAAAAJ:u-x6o8ySG0sC:
     title: "\u57FA\u4E8E\u533A\u5757\u94FE\u7684\u6570\u5B57\u4F5C\u54C1 DCI \u7BA1\u63A7\u6A21\u578B"
     year: '2017'
