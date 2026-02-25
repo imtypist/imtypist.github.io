@@ -42,12 +42,12 @@
   ],
   "awards": [
     {
-      "title": "Geneva International Exhibition of Inventions Gold Medal",
+      "title": "日内瓦国际发明展金奖 Geneva International Exhibition of Inventions Gold Medal",
       "date": "2025-05-12",
       "awarder": "Salon International des Inventions de Genève"
     },
     {
-      "title": "First Prize of Shanghai Computer Society (SCS) Natural Science Award (Rank 4/5)",
+      "title": "上海市计算机学会自然科学一等奖 First Prize of Shanghai Computer Society (SCS) Natural Science Award (Rank 4/5)",
       "date": "2024-04-17",
       "awarder": "Shanghai Computer Society",
       "url": "https://mp.weixin.qq.com/s/R5hzjbZNrAQQymgq1JuelA"
@@ -139,6 +139,7 @@
         "IEEE Transactions on Mobile Computing",
         "IEEE Transactions on Information Forensics and Security",
         "IEEE Transactions on Dependable and Secure Computing",
+        "IEEE Transactions on Networking",
         "IEEE Transactions on Computers",
         "IEEE Transactions on Services Computing",
         "IEEE Transactions on Knowledge and Data Engineering",
@@ -167,10 +168,10 @@
         "ACM Transactions on Privacy and Security",
         "ACM Transactions on the Web",
         "Computer Communications",
+        "计算机学报",
         "ACM Ubicomp/IMWUT 2021",
         "EAI CollaborateCom 2022",
-        "IEEE ICDM 2023",
-        "计算机学报"
+        "IEEE ICDM 2023"
       ]
     },
     {
