@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-02-25'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
@@ -12,7 +12,7 @@ papers:
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
-    citations: 165
+    citations: 166
   vkLqOFwAAAAJ:UeHWp8X0CEIC:
     title: Blockchain-Based Mobile Crowd Sensing in Industrial Systems
     year: '2020'
@@ -44,7 +44,7 @@ papers:
   vkLqOFwAAAAJ:WF5omc3nYNoC:
     title: 'Blockchain-based federated learning: A systematic survey'
     year: '2022'
-    citations: 16
+    citations: 17
   vkLqOFwAAAAJ:W7OEmFMy1HYC:
     title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
     year: '2022'
