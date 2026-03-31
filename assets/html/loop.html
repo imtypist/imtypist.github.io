@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>循环可视化 - 手动单步执行</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background: #f5f7fa;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+        }
+        .left {
+            width: 50%;
+        }
+        .right {
+            width: 50%;
+            background: #1e1e1e;
+            color: #dcdcaa;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: "Consolas", monospace;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .tip {
+            color: #666;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .box {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f9fafb;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #3b82f6;
+            margin-bottom: 10px;
+        }
+        .log {
+            line-height: 1.8;
+            font-size: 15px;
+            white-space: pre-wrap;
+            max-height: 500px;
+            overflow-y: auto;
+            padding-right: 8px;
+        }
+        .log::-webkit-scrollbar {
+            width: 6px;
+        }
+        .log::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 3px;
+        }
+
+        /* ✅ 核心：三层循环颜色区分 */
+        .level1 { color: #e53e3e; font-weight: bold; } /* 外层：红色 */
+        .level2 { color: #38a169; font-weight: bold; } /* 中层：绿色 */
+        .level3 { color: #805ad5; font-weight: bold; } /* 内层：紫色 */
+
+        button {
+            padding: 10px 20px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-right: 10px;
+            margin-bottom: 8px;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        .btn-step {
+            background: #10b981;
+        }
+        .btn-switch {
+            background: #8b5cf6;
+        }
+
+        .line { padding: 2px 4px; border-radius: 3px; }
+        .active { background: #569cd6; color: white; }
+    </style>
+</head>
+<body>
+    <h1>C++ 循环可视化 - 手动单步执行</h1>
+    <p class="tip">👉 点击【单步执行】走一步 | 切换两层/三层循环</p>
+
+    <div class="container">
+        <div class="left">
+            <button class="btn-switch" onclick="switchLoop(2)">两层循环</button>
+            <button class="btn-switch" onclick="switchLoop(3)">三层循环</button>
+            <button class="btn-step" onclick="step()">▶ 单步执行</button>
+            <button onclick="reset()">清空重置</button>
+
+            <div class="box">
+                <div class="title">执行过程：</div>
+                <div id="output" class="log"></div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div id="code2">
+<pre>
+<span id="a1" class="line">// 两层循环</span>
+<span id="a2" class="line">for(int i=1;i&lt;=2;i++){</span>
+<span id="a3" class="line">    cout&lt;&lt;"外层 i="&lt;&lt;i&lt;&lt;endl;</span>
+<span id="a4" class="line">    </span>
+<span id="a5" class="line">    for(int j=1;j&lt;=3;j++){</span>
+<span id="a6" class="line">        cout&lt;&lt;"  内层 j="&lt;&lt;j&lt;&lt;endl;</span>
+<span id="a7" class="line">    }</span>
+<span id="a8" class="line">    </span>
+<span id="a9" class="line">    cout&lt;&lt;"外层 i="&lt;&lt;i&lt;&lt;" 结束"&lt;&lt;endl;</span>
+<span id="a10" class="line">}</span>
+</pre>
+            </div>
+            <div id="code3" style="display:none;">
+<pre>
+<span id="b1" class="line">// 三层循环</span>
+<span id="b2" class="line">for(int i=1;i&lt;=2;i++){</span>
+<span id="b3" class="line">    cout&lt;&lt;"最外层 i="&lt;&lt;i&lt;&lt;endl;</span>
+<span id="b4" class="line">    </span>
+<span id="b5" class="line">    for(int j=1;j&lt;=2;j++){</span>
+<span id="b6" class="line">        cout&lt;&lt;"  中层 j="&lt;&lt;j&lt;&lt;endl;</span>
+<span id="b7" class="line">        </span>
+<span id="b8" class="line">        for(int k=1;k&lt;=2;k++){</span>
+<span id="b9" class="line">            cout&lt;&lt;"    内层 k="&lt;&lt;k&lt;&lt;endl;</span>
+<span id="b10" class="line">        }</span>
+<span id="b11" class="line">    }</span>
+<span id="b12" class="line">    </span>
+<span id="b13" class="line">    cout&lt;&lt;"最外层 i="&lt;&lt;i&lt;&lt;" 结束"&lt;&lt;endl;</span>
+<span id="b14" class="line">}</span>
+</pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const output = document.getElementById("output");
+        let currentType = 2;
+        let stepQueue = [];
+        let stepIndex = 0;
+
+        // 清空所有高亮
+        function clearAllLines() {
+            for(let i=1;i<=14;i++){
+                let el1 = document.getElementById(`a${i}`);
+                let el2 = document.getElementById(`b${i}`);
+                if(el1) el1.classList.remove("active");
+                if(el2) el2.classList.remove("active");
+            }
+        }
+
+        // 高亮当前行
+        function highlight(prefix, line) {
+            clearAllLines();
+            let el = document.getElementById(`${prefix}${line}`);
+            if(el) el.classList.add("active");
+        }
+
+        // 自动滚动到日志底部
+        function scrollToBottom() {
+            output.scrollTop = output.scrollHeight;
+        }
+
+        // 重置
+        function reset() {
+            output.innerHTML = "";
+            clearAllLines();
+            stepQueue = [];
+            stepIndex = 0;
+        }
+
+        // 切换循环
+        function switchLoop(t) {
+            currentType = t;
+            reset();
+            document.getElementById("code2").style.display = t===2 ? "block" : "none";
+            document.getElementById("code3").style.display = t===3 ? "block" : "none";
+            output.innerHTML = `✅ 已切换到【${t}层循环】\n请点击【单步执行】开始\n`;
+            scrollToBottom();
+        }
+
+        // 生成步骤（每条自带层级信息）
+        function buildQueue() {
+            stepQueue = [];
+            if(currentType === 2) {
+                stepQueue.push({h:"a2", text:"➡ 进入外层循环 i=1", level:1});
+                stepQueue.push({h:"a3", text:"执行外层输出 i=1", level:1});
+                stepQueue.push({h:"a5", text:"↪ 进入内层循环 j=1", level:2});
+                stepQueue.push({h:"a6", text:"  内层输出 j=1", level:2});
+                stepQueue.push({h:"a5", text:"↪ 进入内层循环 j=2", level:2});
+                stepQueue.push({h:"a6", text:"  内层输出 j=2", level:2});
+                stepQueue.push({h:"a5", text:"↪ 进入内层循环 j=3", level:2});
+                stepQueue.push({h:"a6", text:"  内层输出 j=3", level:2});
+                stepQueue.push({h:"a7", text:"✅ 内层循环结束", level:2});
+                stepQueue.push({h:"a9", text:"✅ 外层 i=1 执行完毕", level:1});
+                stepQueue.push({h:"a2", text:"➡ 进入外层循环 i=2", level:1});
+                stepQueue.push({h:"a3", text:"执行外层输出 i=2", level:1});
+                stepQueue.push({h:"a5", text:"↪ 进入内层循环 j=1", level:2});
+                stepQueue.push({h:"a6", text:"  内层输出 j=1", level:2});
+                stepQueue.push({h:"a5", text:"↪ 进入内层循环 j=2", level:2});
+                stepQueue.push({h:"a6", text:"  内层输出 j=2", level:2});
+                stepQueue.push({h:"a5", text:"↪ 进入内层循环 j=3", level:2});
+                stepQueue.push({h:"a6", text:"  内层输出 j=3", level:2});
+                stepQueue.push({h:"a7", text:"✅ 内层循环结束", level:2});
+                stepQueue.push({h:"a9", text:"✅ 外层 i=2 执行完毕", level:1});
+                stepQueue.push({h:"a10", text:"🎉 两层循环全部完成！", level:1});
+            } else {
+                stepQueue.push({h:"b2", text:"➡ 进入最外层 i=1", level:1});
+                stepQueue.push({h:"b3", text:"输出最外层 i=1", level:1});
+                stepQueue.push({h:"b5", text:"↪ 进入中层 j=1", level:2});
+                stepQueue.push({h:"b6", text:"  输出中层 j=1", level:2});
+                stepQueue.push({h:"b8", text:"    进入内层 k=1", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=1", level:3});
+                stepQueue.push({h:"b8", text:"    进入内层 k=2", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=2", level:3});
+                stepQueue.push({h:"b10", text:"    内层 k 结束", level:3});
+                stepQueue.push({h:"b11", text:"  中层 j=1 结束", level:2});
+                stepQueue.push({h:"b5", text:"↪ 进入中层 j=2", level:2});
+                stepQueue.push({h:"b6", text:"  输出中层 j=2", level:2});
+                stepQueue.push({h:"b8", text:"    进入内层 k=1", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=1", level:3});
+                stepQueue.push({h:"b8", text:"    进入内层 k=2", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=2", level:3});
+                stepQueue.push({h:"b10", text:"    内层 k 结束", level:3});
+                stepQueue.push({h:"b11", text:"  中层 j=2 结束", level:2});
+                stepQueue.push({h:"b13", text:"✅ 最外层 i=1 结束", level:1});
+                stepQueue.push({h:"b2", text:"➡ 进入最外层 i=2", level:1});
+                stepQueue.push({h:"b3", text:"输出最外层 i=2", level:1});
+                stepQueue.push({h:"b5", text:"↪ 进入中层 j=1", level:2});
+                stepQueue.push({h:"b6", text:"  输出中层 j=1", level:2});
+                stepQueue.push({h:"b8", text:"    进入内层 k=1", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=1", level:3});
+                stepQueue.push({h:"b8", text:"    进入内层 k=2", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=2", level:3});
+                stepQueue.push({h:"b10", text:"    内层 k 结束", level:3});
+                stepQueue.push({h:"b11", text:"  中层 j=1 结束", level:2});
+                stepQueue.push({h:"b5", text:"↪ 进入中层 j=2", level:2});
+                stepQueue.push({h:"b6", text:"  输出中层 j=2", level:2});
+                stepQueue.push({h:"b8", text:"    进入内层 k=1", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=1", level:3});
+                stepQueue.push({h:"b8", text:"    进入内层 k=2", level:3});
+                stepQueue.push({h:"b9", text:"    输出内层 k=2", level:3});
+                stepQueue.push({h:"b10", text:"    内层 k 结束", level:3});
+                stepQueue.push({h:"b11", text:"  中层 j=2 结束", level:2});
+                stepQueue.push({h:"b13", text:"✅ 最外层 i=2 结束", level:1});
+                stepQueue.push({h:"b14", text:"🎉 三层循环全部完成！", level:1});
+            }
+        }
+
+        // 单步执行
+        function step() {
+            if(stepQueue.length === 0) buildQueue();
+            if(stepIndex >= stepQueue.length) {
+                output.innerHTML += "\n🔚 已执行完毕，请重置！";
+                scrollToBottom();
+                return;
+            }
+            let cur = stepQueue[stepIndex++];
+            let cls = `level${cur.level}`;
+            output.innerHTML += `<span class="${cls}">${cur.text}</span>\n`;
+            highlight(cur.h[0], cur.h.substring(1));
+            scrollToBottom();
+        }
+    </script>
+</body>
+</html>

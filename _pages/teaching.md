@@ -11,3 +11,5 @@ nav_order: 6
   - Course Website: [https://www.educoder.net/paths/nstf6g2y](https://www.educoder.net/paths/nstf6g2y)
   - Teaching Assistant: 
     - 2025Spring/2026Spring: Jiaming Liu 刘家铭 (jmliu99@sjtu.edu.cn, PhD student@2024), Zhenyu Xu 许振宇 (battlin@sjtu.edu.cn, PhD student@2023)
+  - Tools:
+    - <a href="/assets/html/loop.html">C++多层循环可视化工具</a>
