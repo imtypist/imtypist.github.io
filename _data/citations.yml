@@ -1,18 +1,18 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-20'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
     year: '2019'
-    citations: 694
+    citations: 697
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 424
+    citations: 433
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
-    citations: 168
+    citations: 169
   vkLqOFwAAAAJ:UeHWp8X0CEIC:
     title: Blockchain-Based Mobile Crowd Sensing in Industrial Systems
     year: '2020'
@@ -20,7 +20,7 @@ papers:
   vkLqOFwAAAAJ:_FxGoFyzp5QC:
     title: Secure data sharing over vehicular networks based on multi-sharding blockchain
     year: '2024'
-    citations: 59
+    citations: 60
   vkLqOFwAAAAJ:qjMakFHDy7sC:
     title: 'B-IoT: Blockchain Driven Internet of Things with Credit-Based Consensus Mechanism'
     year: '2019'
@@ -49,14 +49,14 @@ papers:
     title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
     year: '2022'
     citations: 18
+  vkLqOFwAAAAJ:Se3iqnhoufwC:
+    title: 'Advancing web 3.0: Making smart contracts smarter on blockchain'
+    year: '2024'
+    citations: 14
   vkLqOFwAAAAJ:Tyk-4Ss8FVUC:
     title: A privacy-preserving vehicular data sharing framework atop multi-sharding blockchain
     year: '2021'
     citations: 13
-  vkLqOFwAAAAJ:Se3iqnhoufwC:
-    title: 'Advancing web 3.0: Making smart contracts smarter on blockchain'
-    year: '2024'
-    citations: 12
   vkLqOFwAAAAJ:YsMSGLbcyi4C:
     title: 'AISChain: Blockchain-Based AIS Data Platform With Dynamic Bloom Filter Tree'
     year: '2022'
