@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-03'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
@@ -8,7 +8,7 @@ papers:
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 474
+    citations: 482
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
@@ -28,7 +28,7 @@ papers:
   vkLqOFwAAAAJ:ufrVoPGSRksC:
     title: 'BlockSense: Towards trustworthy mobile crowdsensing via proof-of-data blockchain'
     year: '2022'
-    citations: 44
+    citations: 45
   vkLqOFwAAAAJ:LkGwnXOMwfcC:
     title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
     year: '2023'
@@ -36,7 +36,7 @@ papers:
   vkLqOFwAAAAJ:Y0pCki6q_DkC:
     title: 'PV-TSC: Learning to control traffic signals for pedestrian and vehicle traffic in 6G era'
     year: '2022'
-    citations: 26
+    citations: 27
   vkLqOFwAAAAJ:WF5omc3nYNoC:
     title: 'Blockchain-based federated learning: A systematic survey'
     year: '2022'
@@ -52,7 +52,7 @@ papers:
   vkLqOFwAAAAJ:Se3iqnhoufwC:
     title: 'Advancing web 3.0: Making smart contracts smarter on blockchain'
     year: '2024'
-    citations: 16
+    citations: 17
   vkLqOFwAAAAJ:Tyk-4Ss8FVUC:
     title: A privacy-preserving vehicular data sharing framework atop multi-sharding blockchain
     year: '2021'
