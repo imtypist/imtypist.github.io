@@ -1,18 +1,18 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-07-01'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
     year: '2019'
-    citations: 701
+    citations: 705
   vkLqOFwAAAAJ:eQOLeE2rZwMC:
     title: 'Edge-computing-driven internet of things: A survey'
     year: '2022'
-    citations: 490
+    citations: 509
   vkLqOFwAAAAJ:u5HHmVD_uO8C:
     title: Big Data Model of Security Sharing Based on Blockchain
     year: '2017'
-    citations: 170
+    citations: 171
   vkLqOFwAAAAJ:UeHWp8X0CEIC:
     title: Blockchain-Based Mobile Crowd Sensing in Industrial Systems
     year: '2020'
@@ -20,39 +20,39 @@ papers:
   vkLqOFwAAAAJ:_FxGoFyzp5QC:
     title: Secure data sharing over vehicular networks based on multi-sharding blockchain
     year: '2024'
-    citations: 64
+    citations: 65
   vkLqOFwAAAAJ:qjMakFHDy7sC:
     title: 'B-IoT: Blockchain Driven Internet of Things with Credit-Based Consensus Mechanism'
     year: '2019'
     citations: 48
+  vkLqOFwAAAAJ:LkGwnXOMwfcC:
+    title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
+    year: '2023'
+    citations: 45
   vkLqOFwAAAAJ:ufrVoPGSRksC:
     title: 'BlockSense: Towards trustworthy mobile crowdsensing via proof-of-data blockchain'
     year: '2022'
     citations: 45
-  vkLqOFwAAAAJ:LkGwnXOMwfcC:
-    title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
-    year: '2023'
-    citations: 41
   vkLqOFwAAAAJ:Y0pCki6q_DkC:
     title: 'PV-TSC: Learning to control traffic signals for pedestrian and vehicle traffic in 6G era'
     year: '2022'
-    citations: 27
+    citations: 28
   vkLqOFwAAAAJ:WF5omc3nYNoC:
     title: 'Blockchain-based federated learning: A systematic survey'
     year: '2022'
-    citations: 21
+    citations: 22
+  vkLqOFwAAAAJ:W7OEmFMy1HYC:
+    title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
+    year: '2022'
+    citations: 20
   vkLqOFwAAAAJ:9yKSN-GCB0IC:
     title: Blockchain-based Crowd-sensing System
     year: '2018'
     citations: 19
-  vkLqOFwAAAAJ:W7OEmFMy1HYC:
-    title: 'DeFLoc: Deep learning assisted indoor vehicle localization atop FM fingerprint map'
-    year: '2022'
-    citations: 18
   vkLqOFwAAAAJ:Se3iqnhoufwC:
     title: 'Advancing web 3.0: Making smart contracts smarter on blockchain'
     year: '2024'
-    citations: 17
+    citations: 18
   vkLqOFwAAAAJ:Tyk-4Ss8FVUC:
     title: A privacy-preserving vehicular data sharing framework atop multi-sharding blockchain
     year: '2021'
@@ -68,7 +68,7 @@ papers:
   vkLqOFwAAAAJ:hqOjcs7Dif8C:
     title: Secure and Efficient Personalized Multi-Receiver Data Sharing with Cross-Domain Authentication for Internet of Vehicles
     year: '2025'
-    citations: 2
+    citations: 3
   vkLqOFwAAAAJ:roLk4NBRz8UC:
     title: Relayer-enabled sharding blockchain for satellite Internet with high concurrency
     year: '2023'
