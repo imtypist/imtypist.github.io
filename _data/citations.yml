@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-03'
 papers:
   vkLqOFwAAAAJ:2osOgNQ5qMEC:
     title: 'Towards Secure Industrial IoT: Blockchain System With Credit-Based Consensus Mechanism'
@@ -28,7 +28,7 @@ papers:
   vkLqOFwAAAAJ:LkGwnXOMwfcC:
     title: Conditional privacy-preserving multi-domain authentication and pseudonym management for 6G-enabled IoV
     year: '2023'
-    citations: 45
+    citations: 46
   vkLqOFwAAAAJ:ufrVoPGSRksC:
     title: 'BlockSense: Towards trustworthy mobile crowdsensing via proof-of-data blockchain'
     year: '2022'
