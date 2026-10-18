@@ -19,4 +19,5 @@ nav_order: 5
 
 **Undergraduate Students**
 
-- Tianyu Mao 毛天宇 (CS@IEEE Class 2023, co-supervised with Prof. Linghe Kong)
+- Tianyu Mao 毛天宇 (CS@IEEE Class 2023)
+- Tingxuan Su 苏庭煊 (CS@永强班 2026)

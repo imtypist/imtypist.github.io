@@ -42,6 +42,12 @@
   ],
   "awards": [
     {
+      "title": "上海市技术发明一等奖 First Prize of the Shanghai Technological Invention Award",
+      "date": "2026-04-28",
+      "awarder": "上海市人民政府 Shanghai Municipal People's Government",
+      "url": "https://mp.weixin.qq.com/s/sxVJv7Rt5fejn_69MEWqSQ"
+    },
+    {
       "title": "日内瓦国际发明展金奖 Geneva International Exhibition of Inventions Gold Medal",
       "date": "2025-05-12",
       "awarder": "Salon International des Inventions de Genève"
@@ -49,7 +55,7 @@
     {
       "title": "上海市计算机学会自然科学一等奖 First Prize of Shanghai Computer Society (SCS) Natural Science Award (Rank 4/5)",
       "date": "2024-04-17",
-      "awarder": "Shanghai Computer Society",
+      "awarder": "上海市计算机学会 Shanghai Computer Society",
       "url": "https://mp.weixin.qq.com/s/R5hzjbZNrAQQymgq1JuelA"
     },
     {
@@ -95,6 +101,13 @@
   ],
   "services": [
     {
+      "name": "学术专委会",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "CCF信息保密专业委员会，执行委员, 2026-present"
+      ]
+    },
+    {
       "name": "Editorial Board",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
@@ -123,7 +136,7 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "PC Member, ACM WWW 2026",
-        "PC Member, AAAI 2026",
+        "PC Member, AAAI 2026 2027",
         "TPC Member, IWCMC 2026",
         "TPC Member, BCRA <a href='https://2025.bcra-conf.org'>2025</a> 2026",
         "TPC Member, BSC Workshop (in conjunction with QRS) <a href='https://qrs25.techconf.org/track/workshops/bsc'>2025</a>",

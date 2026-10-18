@@ -10,6 +10,10 @@ nav_order: 6
 - [CS1501] 程序设计思想与方法 Thinking and Methodology in Programming (C++), 2025Spring/2026Spring
   - Course Website: [https://www.educoder.net/paths/nstf6g2y](https://www.educoder.net/paths/nstf6g2y)
   - Teaching Assistant: 
-    - 2025Spring/2026Spring: Jiaming Liu 刘家铭 (jmliu99@sjtu.edu.cn, PhD student@2024), Zhenyu Xu 许振宇 (battlin@sjtu.edu.cn, PhD student@2023)
+    - 2025Spring/2026Spring: Jiaming Liu 刘家铭 (jmliu99@sjtu.edu.cn, PhD student@2024), Zhenyu Xu 许振宇 (battlin@sjtu.edu.cn, PhD student@2023) <img src="/assets/img/outstanding_ta.png" style="display: block; width: 300px;">
   - Tools:
     - <a href="/assets/html/loop.html">C++多层循环可视化工具</a>
+
+- [CS1502H] 程序设计思想与方法（荣誉） Thinking and Methodology in Programming (C++), 2026Fall
+  - Teaching Assistant: 
+    - Jiaming Liu 刘家铭 (jmliu99@sjtu.edu.cn, PhD student@2024), Zhenyu Xu 许振宇 (battlin@sjtu.edu.cn, PhD student@2023)
